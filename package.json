@@ -1,0 +1,25 @@
+{
+  "name": "online-judge-backend",
+  "version": "1.0.0",
+  "description": "GSHS JudgeOn",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start":"node src/main/index.js",
+    "dev": "nodemon src/main/index.js",
+    "test": "echo hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSHS38/Online-Judge-Backend.git"
+  },
+  "author": "JJT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GSHS38/Online-Judge-Backend/issues"
+  },
+  "homepage": "https://github.com/GSHS38/Online-Judge-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
